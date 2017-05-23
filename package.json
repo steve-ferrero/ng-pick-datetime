@@ -11,39 +11,52 @@
         "type": "version"
       },
       "C:\\wamp64\\www\\wa_gantt_angular4\\wa-gantt"
+    ],
+    [
+      {
+        "raw": "ng-pick-datetime-fork",
+        "scope": null,
+        "escapedName": "ng-pick-datetime-fork",
+        "name": "ng-pick-datetime-fork",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\wamp64\\www\\wa_gantt_angular4\\wa-gantt"
     ]
   ],
-  "_from": "ng-pick-datetime@4.0.4",
-  "_id": "ng-pick-datetime@4.0.4",
+  "_from": "ng-pick-datetime-fork",
+  "_id": "ng-pick-datetime-fork@4.0.4",
   "_inCache": true,
-  "_location": "/ng-pick-datetime",
-  "_nodeVersion": "6.10.1",
+  "_location": "/ng-pick-datetime-fork",
+  "_nodeVersion": "6.10.2",
   "_npmOperationalInternal": {
-    "host": "packages-18-east.internal.npmjs.com",
-    "tmp": "tmp/ng-pick-datetime-4.0.4.tgz_1491881585319_0.6355941724032164"
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/ng-pick-datetime-fork-4.0.4.tgz_1495548665307_0.8488491580355912"
   },
   "_npmUser": {
-    "name": "daniel_pan",
-    "email": "myron.yk.pan@gmail.com"
+    "name": "sabri-web",
+    "email": "sabri.florin@gmail.com"
   },
   "_npmVersion": "3.10.10",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "ng-pick-datetime@4.0.4",
+    "raw": "ng-pick-datetime-fork",
     "scope": null,
-    "escapedName": "ng-pick-datetime",
-    "name": "ng-pick-datetime",
-    "rawSpec": "4.0.4",
-    "spec": "4.0.4",
-    "type": "version"
+    "escapedName": "ng-pick-datetime-fork",
+    "name": "ng-pick-datetime-fork",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
   },
   "_requiredBy": [
+    "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/ng-pick-datetime/-/ng-pick-datetime-4.0.4.tgz",
-  "_shasum": "a189dc50428b7047d4919cda4e4c337933d9e608",
+  "_resolved": "https://registry.npmjs.org/ng-pick-datetime-fork/-/ng-pick-datetime-fork-4.0.4.tgz",
+  "_shasum": "efc3cac04e70309d282bb2069a8c14c643ffb7e0",
   "_shrinkwrap": null,
-  "_spec": "ng-pick-datetime@4.0.4",
+  "_spec": "ng-pick-datetime-fork",
   "_where": "C:\\wamp64\\www\\wa_gantt_angular4\\wa-gantt",
   "author": {
     "name": "daniel pan",
@@ -118,9 +131,10 @@
   },
   "directories": {},
   "dist": {
-    "shasum": "a189dc50428b7047d4919cda4e4c337933d9e608",
-    "tarball": "https://registry.npmjs.org/ng-pick-datetime-fork/-/ng-pick-datetime-4.0.4.tgz"
+    "shasum": "efc3cac04e70309d282bb2069a8c14c643ffb7e0",
+    "tarball": "https://registry.npmjs.org/ng-pick-datetime-fork/-/ng-pick-datetime-fork-4.0.4.tgz"
   },
+  "gitHead": "69a0be24d7c616ed37988dcc8f249d61f80fcb9c",
   "homepage": "https://github.com/steve-ferrero/ng-pick-datetime#readme",
   "keywords": [
     "Angular",
