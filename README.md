@@ -6,7 +6,8 @@
 ## Important
 
 **This package now supports Angular 2 ang 4**
-**Source: https://github.com/DanielYKPan/date-time-picker**
+
+*Source: https://github.com/DanielYKPan/date-time-picker
 
 ## Updates
 
@@ -29,7 +30,7 @@ This picker uses [MomentJS](http://momentjs.com/)
 
 To install this component, follow the procedure:
 
-1. __Install with [npm](https://www.npmjs.com):`npm install ng-pick-datetime --save`__
+1. __Install with [npm](https://www.npmjs.com):`npm install ng-pick-datetime-fork --save`__
 2. Add __DateTimePickerModule__ import to your __@NgModule__ like example below
     ```js
     import { NgModule } from '@angular/core';
