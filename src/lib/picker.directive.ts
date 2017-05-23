@@ -18,7 +18,6 @@ import { DialogComponent } from './dialog.component';
 export class DateTimePickerDirective implements OnInit, OnChanges {
 
     @Input('dateTimePicker') dateTimePicker: any;
-    @Input('date') date: any;
     @Input('minDate') minDate: any;
     @Input('maxDate') maxDate: any;
     @Output('dateTimePickerChange') dateTimePickerChange = new EventEmitter<any>(true);
@@ -70,7 +69,7 @@ export class DateTimePickerDirective implements OnInit, OnChanges {
                     const injector = ReflectiveInjector.fromResolvedProviders([], this.vcRef.parentInjector);
                     const cmpRef = this.vcRef.createComponent(compFactory, 0, injector, []);
                     cmpRef.instance.setDialog(this, this.el, this.dateTimePicker, this.locale, this.viewFormat, this.returnObject,
-                        this.positionOffset, this.mode, this.hourTime, this.theme, this.pickerType, this.minDate, this.maxDate, this.date);
+                        this.positionOffset, this.mode, this.hourTime, this.theme, this.pickerType, this.minDate, this.maxDate);
                     this.dialog = cmpRef.instance;
                 });
         } else if (this.dialog) {
