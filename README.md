@@ -6,6 +6,7 @@
 ## Important
 
 **This package now supports Angular 2 ang 4**
+**Source: https://github.com/DanielYKPan/date-time-picker**
 
 ## Updates
 
@@ -115,6 +116,10 @@ public setMoment(moment: any): any {
       * **[hourTime]=" '24' "** --- Set the hour time format (12-hour format or 24-hour format). Default is '24'(24-hour format). The other choice could be '12'(12-hour format).
       * **[theme]=" 'default' "** --- Set the theme color. The default color is Blue. Other options include 'green', 'teal', 'cyan', 'grape', 'red', 'gray'. You can see the effect from the demo.
       * **Important: Do Not forget the single quote inside the double quote when you set the optional attributes value.**
+	  
+ * Add optional attributes:
+      * **[minDate]=" '2017/02/05' "** --- Set minDate
+      * **[maxDate]=" '2017/02/05' "** --- Set maxDate
 
 ## Demo
 Online demo is [here](https://danielykpan.github.io/date-time-picker/)
@@ -124,3 +129,4 @@ Online demo is [here](https://danielykpan.github.io/date-time-picker/)
 
 ## Author
 * Author: Daniel Pan
+* Contributor: Sabri Florin
