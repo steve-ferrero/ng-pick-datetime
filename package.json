@@ -50,12 +50,12 @@
     "email": "myron.yk.pan@gmail.com"
   },
   "bugs": {
-    "url": "https://github.com/DanielYKPan/date-time-picker/issues"
+    "url": "https://github.com/steve-ferrero/ng-pick-datetime/issues"
   },
   "dependencies": {
     "moment": "^2.17.0"
   },
-  "description": "Angular Date Time Picker",
+  "description": "Angular 2-4 Date Time Picker",
   "devDependencies": {
     "@angular/animations": "^4.0.0",
     "@angular/common": "~4.0.0",
@@ -119,9 +119,9 @@
   "directories": {},
   "dist": {
     "shasum": "a189dc50428b7047d4919cda4e4c337933d9e608",
-    "tarball": "https://registry.npmjs.org/ng-pick-datetime/-/ng-pick-datetime-4.0.4.tgz"
+    "tarball": "https://registry.npmjs.org/ng-pick-datetime-fork/-/ng-pick-datetime-4.0.4.tgz"
   },
-  "homepage": "https://github.com/DanielYKPan/date-time-picker#readme",
+  "homepage": "https://github.com/steve-ferrero/ng-pick-datetime#readme",
   "keywords": [
     "Angular",
     "datepicker",
@@ -137,12 +137,12 @@
       "email": "myron.yk.pan@gmail.com"
     }
   ],
-  "name": "ng-pick-datetime",
+  "name": "ng-pick-datetime-fork",
   "optionalDependencies": {},
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DanielYKPan/date-time-picker.git"
+    "url": "git+https://github.com/steve-ferrero/ng-pick-datetime.git"
   },
   "scripts": {
     "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail",

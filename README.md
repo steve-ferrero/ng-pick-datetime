@@ -114,6 +114,8 @@ public setMoment(moment: any): any {
         If you set it as 'inline', the date-time-picker would always show on your web page as a html element (In inline mode, you could set width = '250px' to make the the picker smaller or bigger. picker width are set between 200px and 300px ).
       * **[hourTime]=" '24' "** --- Set the hour time format (12-hour format or 24-hour format). Default is '24'(24-hour format). The other choice could be '12'(12-hour format).
       * **[theme]=" 'default' "** --- Set the theme color. The default color is Blue. Other options include 'green', 'teal', 'cyan', 'grape', 'red', 'gray'. You can see the effect from the demo.
+      * **[minDate]=" '2017-05-23' "** --- Set minDate.
+      * **[maxDate]=" '2017-05-25' "** --- Set maxDate.
       * **Important: Do Not forget the single quote inside the double quote when you set the optional attributes value.**
 
 ## Demo

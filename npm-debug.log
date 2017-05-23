@@ -1,0 +1,207 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish',
+1 verbose cli   '--access=public' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.2
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'C:\\wamp64\\www\\wa_gantt_angular4\\module\\ng-pick-datetime',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\SFO\AppData\Roaming\npm-cache\ng-pick-datetime-fork\4.0.4\package.tgz not in flight; packing
+9 verbose correctMkdir C:\Users\SFO\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+10 info lifecycle ng-pick-datetime-fork@4.0.4~prepublish: ng-pick-datetime-fork@4.0.4
+11 silly lifecycle ng-pick-datetime-fork@4.0.4~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ 'C:\\Users\\SFO\\AppData\\Roaming\\npm-cache\\ng-pick-datetime-fork\\4.0.4\\package.tgz',
+12 verbose tar pack   'C:\\wamp64\\www\\wa_gantt_angular4\\module\\ng-pick-datetime' ]
+13 verbose tarball C:\Users\SFO\AppData\Roaming\npm-cache\ng-pick-datetime-fork\4.0.4\package.tgz
+14 verbose folder C:\wamp64\www\wa_gantt_angular4\module\ng-pick-datetime
+15 verbose addLocalTarball adding from inside cache C:\Users\SFO\AppData\Roaming\npm-cache\ng-pick-datetime-fork\4.0.4\package.tgz
+16 verbose correctMkdir C:\Users\SFO\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+17 silly cache afterAdd ng-pick-datetime-fork@4.0.4
+18 verbose afterAdd C:\Users\SFO\AppData\Roaming\npm-cache\ng-pick-datetime-fork\4.0.4\package\package.json not in flight; writing
+19 verbose correctMkdir C:\Users\SFO\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+20 verbose afterAdd C:\Users\SFO\AppData\Roaming\npm-cache\ng-pick-datetime-fork\4.0.4\package\package.json written
+21 silly publish { _args: [ [ [Object], 'C:\\wamp64\\www\\wa_gantt_angular4\\wa-gantt' ] ],
+21 silly publish   _from: '.',
+21 silly publish   _id: 'ng-pick-datetime-fork@4.0.4',
+21 silly publish   _inCache: true,
+21 silly publish   _location: '/ng-pick-datetime',
+21 silly publish   _nodeVersion: '6.10.1',
+21 silly publish   _npmOperationalInternal:
+21 silly publish    { host: 'packages-18-east.internal.npmjs.com',
+21 silly publish      tmp: 'tmp/ng-pick-datetime-4.0.4.tgz_1491881585319_0.6355941724032164' },
+21 silly publish   _npmUser: { name: 'daniel_pan', email: 'myron.yk.pan@gmail.com' },
+21 silly publish   _npmVersion: '3.10.10',
+21 silly publish   _phantomChildren: {},
+21 silly publish   _requested:
+21 silly publish    { raw: 'ng-pick-datetime@4.0.4',
+21 silly publish      scope: null,
+21 silly publish      escapedName: 'ng-pick-datetime',
+21 silly publish      name: 'ng-pick-datetime',
+21 silly publish      rawSpec: '4.0.4',
+21 silly publish      spec: '4.0.4',
+21 silly publish      type: 'version' },
+21 silly publish   _requiredBy: [ '/' ],
+21 silly publish   _resolved: 'https://registry.npmjs.org/ng-pick-datetime/-/ng-pick-datetime-4.0.4.tgz',
+21 silly publish   _shasum: 'efc3cac04e70309d282bb2069a8c14c643ffb7e0',
+21 silly publish   _shrinkwrap: null,
+21 silly publish   _spec: 'ng-pick-datetime@4.0.4',
+21 silly publish   _where: 'C:\\wamp64\\www\\wa_gantt_angular4\\wa-gantt',
+21 silly publish   author: { name: 'daniel pan', email: 'myron.yk.pan@gmail.com' },
+21 silly publish   bugs: { url: 'https://github.com/steve-ferrero/ng-pick-datetime/issues' },
+21 silly publish   dependencies: { moment: '^2.17.0' },
+21 silly publish   description: 'Angular 2-4 Date Time Picker',
+21 silly publish   devDependencies:
+21 silly publish    { '@angular/animations': '^4.0.0',
+21 silly publish      '@angular/common': '~4.0.0',
+21 silly publish      '@angular/compiler': '~4.0.0',
+21 silly publish      '@angular/compiler-cli': '~4.0.0',
+21 silly publish      '@angular/core': '~4.0.0',
+21 silly publish      '@angular/forms': '~4.0.0',
+21 silly publish      '@angular/http': '~4.0.0',
+21 silly publish      '@angular/platform-browser': '~4.0.0',
+21 silly publish      '@angular/platform-browser-dynamic': '~4.0.0',
+21 silly publish      '@angular/platform-server': '^4.0.0',
+21 silly publish      '@angular/router': '~4.0.0',
+21 silly publish      '@types/jasmine': '^2.5.36',
+21 silly publish      '@types/node': '^7.0.0',
+21 silly publish      '@types/selenium-webdriver': '~2.53.39',
+21 silly publish      'angular2-template-loader': '^0.6.0',
+21 silly publish      autoprefixer: '^6.5.3',
+21 silly publish      'awesome-typescript-loader': '3.0.0-beta.10',
+21 silly publish      'core-js': '^2.4.1',
+21 silly publish      'css-loader': '^0.23.1',
+21 silly publish      'extract-text-webpack-plugin': '^1.0.1',
+21 silly publish      'file-loader': '^0.8.5',
+21 silly publish      gulp: '^3.9.1',
+21 silly publish      'gulp-clean': '^0.3.2',
+21 silly publish      'gulp-clean-css': '^2.0.13',
+21 silly publish      'gulp-flatmap': '^1.0.0',
+21 silly publish      'gulp-htmlmin': '^3.0.0',
+21 silly publish      'gulp-postcss': '^6.2.0',
+21 silly publish      'gulp-replace': '^0.5.4',
+21 silly publish      'gulp-sass': '^2.3.2',
+21 silly publish      'gulp-sourcemaps': '^1.9.1',
+21 silly publish      'gulp-typescript': '^3.1.3',
+21 silly publish      'html-loader': '^0.4.3',
+21 silly publish      'html-webpack-plugin': '^2.15.0',
+21 silly publish      'jasmine-core': '^2.4.1',
+21 silly publish      karma: '^1.2.0',
+21 silly publish      'karma-jasmine': '^1.0.2',
+21 silly publish      'karma-phantomjs-launcher': '^1.0.2',
+21 silly publish      'karma-sourcemap-loader': '^0.3.7',
+21 silly publish      'karma-webpack': '^1.8.0',
+21 silly publish      merge2: '^1.0.2',
+21 silly publish      'node-sass': '^3.13.0',
+21 silly publish      'null-loader': '^0.1.1',
+21 silly publish      'phantomjs-prebuilt': '^2.1.7',
+21 silly publish      pixrem: '^3.0.2',
+21 silly publish      'postcss-loader': '^1.1.1',
+21 silly publish      'raw-loader': '^0.5.1',
+21 silly publish      rimraf: '^2.5.2',
+21 silly publish      'run-sequence': '^1.2.2',
+21 silly publish      rxjs: '5.0.2',
+21 silly publish      'sass-loader': '^4.0.2',
+21 silly publish      'style-loader': '^0.13.1',
+21 silly publish      'to-string-loader': '^1.1.5',
+21 silly publish      typescript: '2.1.5',
+21 silly publish      'web-animations-js': '^2.2.2',
+21 silly publish      webpack: '^1.13.0',
+21 silly publish      'webpack-dev-server': '^1.14.1',
+21 silly publish      'webpack-merge': '^0.14.0',
+21 silly publish      'zone.js': '^0.8.4' },
+21 silly publish   directories: {},
+21 silly publish   dist:
+21 silly publish    { shasum: 'a189dc50428b7047d4919cda4e4c337933d9e608',
+21 silly publish      tarball: 'https://registry.npmjs.org/ng-pick-datetime-fork/-/ng-pick-datetime-4.0.4.tgz' },
+21 silly publish   homepage: 'https://github.com/steve-ferrero/ng-pick-datetime#readme',
+21 silly publish   keywords:
+21 silly publish    [ 'Angular',
+21 silly publish      'datepicker',
+21 silly publish      'date picker',
+21 silly publish      'timepicker',
+21 silly publish      'time picker' ],
+21 silly publish   license: 'MIT',
+21 silly publish   main: './index.js',
+21 silly publish   maintainers: [ { name: 'daniel_pan', email: 'myron.yk.pan@gmail.com' } ],
+21 silly publish   name: 'ng-pick-datetime-fork',
+21 silly publish   optionalDependencies: {},
+21 silly publish   readme: 'ERROR: No README data found!',
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/steve-ferrero/ng-pick-datetime.git' },
+21 silly publish   scripts:
+21 silly publish    { build: 'rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail',
+21 silly publish      start: 'webpack-dev-server --inline --progress --port 8080',
+21 silly publish      test: 'karma start' },
+21 silly publish   types: './index.d.ts',
+21 silly publish   version: '4.0.4',
+21 silly publish   gitHead: '69a0be24d7c616ed37988dcc8f249d61f80fcb9c' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name ng-pick-datetime-fork
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'ng-pick-datetime-fork',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'ng-pick-datetime-fork',
+26 silly mapToRegistry   name: 'ng-pick-datetime-fork',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/ng-pick-datetime-fork
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading C:\Users\SFO\AppData\Roaming\npm-cache\ng-pick-datetime-fork\4.0.4\package.tgz
+30 verbose request uri https://registry.npmjs.org/ng-pick-datetime-fork
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 16:12:19
+33 verbose request using bearer token for auth
+34 verbose request id 72c560c97cfeccf5
+35 http request PUT https://registry.npmjs.org/ng-pick-datetime-fork
+36 http 403 https://registry.npmjs.org/ng-pick-datetime-fork
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '95',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Tue, 23 May 2017 14:12:19 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-lhr6320-LHR',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1495548738.181076,VS0,VE1592',
+37 verbose headers   vary: 'Accept-Encoding' }
+38 verbose request invalidating C:\Users\SFO\AppData\Roaming\npm-cache\registry.npmjs.org\ng-pick-datetime-fork on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: "You cannot publish over the previously published version 4.0.4." : ng-pick-datetime-fork
+40 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+40 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+40 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+40 verbose stack     at emitTwo (events.js:106:13)
+40 verbose stack     at Request.emit (events.js:191:7)
+40 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+40 verbose stack     at emitOne (events.js:96:13)
+40 verbose stack     at Request.emit (events.js:188:7)
+40 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+41 verbose statusCode 403
+42 verbose pkgid ng-pick-datetime-fork
+43 verbose cwd C:\wamp64\www\wa_gantt_angular4\module\ng-pick-datetime
+44 error Windows_NT 10.0.14393
+45 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "--access=public"
+46 error node v6.10.2
+47 error npm  v3.10.10
+48 error code E403
+49 error "You cannot publish over the previously published version 4.0.4." : ng-pick-datetime-fork
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
