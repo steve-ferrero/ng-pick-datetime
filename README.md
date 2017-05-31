@@ -7,7 +7,7 @@
 
 **This package supports Angular 4**
 
-**Source: (https://github.com/DanielYKPan/date-time-picker)**
+*Source: (https://github.com/DanielYKPan/date-time-picker)
 
 ## Updates
 * Add classes **picker-day-today**, **picker-day-selected**, **picker-month-current**, **picker-year-current**, close [#42].
