@@ -1,7 +1,7 @@
 {
   "name": "@web-atrio/date-time-picker",
-  "version": "0.0.3",
-  "description": "Angular Date Time Picker",
+  "version": "1.0.0",
+  "description": "Angular4 Date Time Picker",
   "keywords": [
     "Angular",
     "datepicker",
@@ -9,11 +9,11 @@
     "timepicker",
     "time picker"
   ],
-  "author": "daniel pan",
+  "author": "Web-Atrio",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DanielYKPan/date-time-picker.git"
+    "url": "https://github.com/steve-ferrero/ng-pick-datetime.git"
   },
   "scripts": {
     "start": "webpack-dev-server --inline --progress --port 8080",
