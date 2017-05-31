@@ -39,14 +39,14 @@ This picker uses [MomentJS](http://momentjs.com/)
 
 To install this component, follow the procedure:
 
-1. __Install with [npm](https://www.npmjs.com):`npm install ng-pick-datetime --save`__
+1. __Install with [npm](https://www.npmjs.com):`npm install @web-atrio/date-time-picker --save`__
 2. Add __DateTimePickerModule__ import to your __@NgModule__ like example below
     ```js
     import { NgModule } from '@angular/core';
     import { BrowserModule } from '@angular/platform-browser';
     import { MyTestApp } from './my-test-app';
 
-    import { DateTimePickerModule } from 'ng-pick-datetime';
+    import { DateTimePickerModule } from '@web-atrio/date-time-picker';
 
     @NgModule({
         imports:      [ BrowserModule, DateTimePickerModule ],
