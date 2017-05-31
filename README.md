@@ -6,6 +6,7 @@
 ## Important
 
 **This package supports Angular 4**
+
 **Source: (https://github.com/DanielYKPan/date-time-picker)**
 
 ## Updates
