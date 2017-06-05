@@ -97,7 +97,7 @@ export class DatePanelComponent implements OnInit, OnChanges {
             }
         }
         if(this.holiday){
-            if(this.momentFunc().holiday(day)){
+            if(this.momentFunc().holiday(day, this.locale)){
                 return true;
             }
         }
