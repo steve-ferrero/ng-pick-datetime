@@ -21,6 +21,8 @@
         </div>
 
         <div class="demo">
+            <!--[minDate]="'2017-06-06'"
+            [maxDate]="'2017-05-10'"-->
             <div class="input-control">
                 <label for="time-input">Time: </label>
                 <input class="picker-input"
@@ -28,9 +30,11 @@
                        [dateTimePicker]="momentValue"
                        [ngModel]="momentValue | date: 'short'"
                        [hourTime]="'12'"
-                       [locale]="'de'"
-                       [minDate]="'2017-05-06'"
-                       [maxDate]="'2017-05-10'"
+                       [locale]="'fr'"
+                       [week]="true"
+                       [holiday]="true"
+                       [minDate]="'2017-01-01'"
+                       [maxDate]="'2017-12-30'"
                        [showSeconds]="true"
                        [theme]="'#c92a2a'"
                        (dateTimePickerChange)="setDate($event)" readonly>

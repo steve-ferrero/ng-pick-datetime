@@ -20,8 +20,6 @@
     "test": "karma start",
     "build": "rimraf dist && webpack --config config/webpack.common.js --progress --profile --bail"
   },
-  "main": "./index.js",
-  "types": "./index.d.ts",
   "dependencies": {
     "@angular/animations": "~4.1.0",
     "@angular/common": "~4.1.0",

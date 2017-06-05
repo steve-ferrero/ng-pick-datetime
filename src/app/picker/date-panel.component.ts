@@ -10,6 +10,9 @@ import { Moment } from 'moment/moment';
 import { DialogType } from './dialog.component';
 import { PickerService } from './picker.service';
 import { shadeBlendConvert } from './utils';
+import { HolidayMoment }  from '../../vendor/moment-holidays';
+HolidayMoment(moment);
+
 
 @Component({
     selector: 'dialog-date-panel',
@@ -38,6 +41,8 @@ export class DatePanelComponent implements OnInit, OnChanges {
     public todayIconColor: string;
     public minDate: string;
     public maxDate: string;
+    public week: boolean = false;
+    public holiday: boolean = false;
 
     private locale: string;
     private momentFunc = (moment as any).default ? (moment as any).default : moment;
@@ -56,6 +61,8 @@ export class DatePanelComponent implements OnInit, OnChanges {
         this.locale = this.service.dtLocale;
         this.minDate = this.service.dtMinDate;
         this.maxDate = this.service.dtMaxDate;
+        this.week = this.service.dtWeek;
+        this.holiday = this.service.dtHoliday;
         this.mode = this.service.dtMode;
         this.onlyCurrent = this.service.dtOnlyCurrent;
         this.todayIconColor = shadeBlendConvert(0.4, this.service.dtTheme);
@@ -80,6 +87,17 @@ export class DatePanelComponent implements OnInit, OnChanges {
         }
         if(this.maxDate){
             if(moment(day.format()).isAfter(moment(this.maxDate).format('YYYY-MM-DD'))){
+                return true;
+            }
+        }
+        if(this.week){
+            let isWeekend = (moment(day).weekday() == 6) || (moment(day).weekday() == 5); // 5 = Saturday, 6 = Sunday
+            if(isWeekend){
+                return true;
+            }
+        }
+        if(this.holiday){
+            if(this.momentFunc().holiday(day)){
                 return true;
             }
         }

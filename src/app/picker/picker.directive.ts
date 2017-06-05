@@ -31,6 +31,8 @@ export class DateTimePickerDirective implements OnInit, OnChanges {
     @Input() onlyCurrent: boolean = false;
 	@Input() minDate: any;
     @Input() maxDate: any;
+    @Input() week: boolean = false;
+    @Input() holiday: boolean = false;
 
     private created: boolean = false;
     private dialog: any;
@@ -69,7 +71,7 @@ export class DateTimePickerDirective implements OnInit, OnChanges {
             const injector = ReflectiveInjector.fromResolvedProviders([], this.vcRef.parentInjector);
             const cmpRef = this.vcRef.createComponent(factory, 0, injector, []);
             cmpRef.instance.setDialog(this, this.el, this.dateTimePicker, this.locale, this.viewFormat, this.returnObject, this.position,
-                this.positionOffset, this.mode, this.hourTime, this.theme, this.pickerType, this.showSeconds, this.onlyCurrent, this.minDate, this.maxDate);
+                this.positionOffset, this.mode, this.hourTime, this.theme, this.pickerType, this.showSeconds, this.onlyCurrent, this.minDate, this.maxDate, this.week, this.holiday);
             this.dialog = cmpRef.instance;
         } else if (this.dialog) {
             this.dialog.openDialog(this.dateTimePicker, this.minDate, this.maxDate);
