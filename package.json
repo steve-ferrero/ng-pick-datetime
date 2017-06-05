@@ -1,6 +1,6 @@
 {
   "name": "@web-atrio/date-time-picker",
-  "version": "1.1.1",
+  "version": "1.1.4",
   "description": "Angular4 Date Time Picker",
   "keywords": [
     "Angular",
@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "@types/jasmine": "^2.5.36",
-    "@types/node": "^7.0.0",
+    "@types/node": "^7.0.27",
     "@types/selenium-webdriver": "~2.53.39",
     "angular2-template-loader": "^0.6.0",
     "autoprefixer": "^6.5.3",
