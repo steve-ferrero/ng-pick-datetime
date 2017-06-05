@@ -90,13 +90,13 @@ export class DialogComponent implements OnInit, OnDestroy {
                       dtPosition: 'top' | 'right' | 'bottom' | 'left',
                       dtPositionOffset: string, dtMode: 'popup' | 'dropdown' | 'inline',
                       dtHourTime: '12' | '24', dtTheme: string,
-                      dtPickerType: 'both' | 'date' | 'time', dtShowSeconds: boolean, dtOnlyCurrent: boolean, dtMinDate: any, dtMaxDate: any ): void {
+                      dtPickerType: 'both' | 'date' | 'time', dtShowSeconds: boolean, dtOnlyCurrent: boolean, dtMinDate: any, dtMaxDate: any, dtWeek: boolean, dtHoliday: boolean ): void {
         this.directiveInstance = instance;
         this.directiveElementRef = elementRef;
         this.initialValue = initialValue;
 
         this.service.setPickerOptions(dtLocale, dtViewFormat, dtReturnObject, dtPosition,
-            dtPositionOffset, dtMode, dtHourTime, dtTheme, dtPickerType, dtShowSeconds, dtOnlyCurrent, dtMinDate, dtMaxDate);
+            dtPositionOffset, dtMode, dtHourTime, dtTheme, dtPickerType, dtShowSeconds, dtOnlyCurrent, dtMinDate, dtMaxDate, dtWeek, dtHoliday);
     }
 
     public confirm( close: boolean ): void {

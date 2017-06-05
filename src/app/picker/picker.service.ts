@@ -15,6 +15,20 @@ export class PickerService {
     public selectedMomentSource: Subject<Moment> = new Subject<Moment>();
     public selectedMomentChange: Observable<Moment> = this.selectedMomentSource.asObservable();
 
+    /* Property _dtHoliday */
+    private _dtHoliday: boolean;
+
+    get dtHoliday(): boolean {
+        return this._dtHoliday;
+    }
+
+    /* Property _dtWeek */
+    private _dtWeek: boolean;
+
+    get dtWeek(): boolean {
+        return this._dtWeek;
+    }
+
     /* Property _dtLocale */
     private _dtLocale: string;
 
@@ -157,7 +171,7 @@ export class PickerService {
                              dtHourTime: '12' | '24', dtTheme: string,
                              dtPickerType: 'both' | 'date' | 'time',
                              dtShowSeconds: boolean, dtOnlyCurrent: boolean,
-                             dtMinDate: any, dtMaxDate: any): void {
+                             dtMinDate: any, dtMaxDate: any, dtWeek: boolean, dtHoliday: boolean): void {
         this._dtLocale = dtLocale;
         this._dtViewFormat = dtViewFormat;
         this._dtReturnObject = dtReturnObject;
@@ -171,6 +185,8 @@ export class PickerService {
         this.dtTheme = dtTheme;
         this._dtMinDate = dtMinDate;
         this._dtMaxDate = dtMaxDate;
+        this._dtWeek = dtWeek;
+        this._dtHoliday = dtHoliday;
     }
 
     public setMoment( value: any, minDate: any, maxDate: any ): void {
