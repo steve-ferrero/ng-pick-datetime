@@ -15,8 +15,10 @@
 //License:
 //  Copyright (c) 2013 [Jr. Hames](http://jrham.es) under [MIT License](http://opensource.org/licenses/MIT)
 import * as Moment from 'moment'
-import * as Holidays from 'date-holidays'
+const Holidays = require('date-holidays');
 const hd = new Holidays();
+/*import * as Holidays from 'date-holidays'
+const hd = new Holidays();*/
 
 //-----------------------------------------------------------------------------
 // Moment Extensions
